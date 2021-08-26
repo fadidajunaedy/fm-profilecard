@@ -58,6 +58,8 @@ section .card {
   height: auto;
   overflow: hidden;
   border-radius: 24px;
+  -webkit-box-shadow: 0 0 18px rgba(45, 50, 72, 0.8);
+          box-shadow: 0 0 18px rgba(45, 50, 72, 0.8);
 }
 
 section .card .header {
