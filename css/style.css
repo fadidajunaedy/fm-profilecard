@@ -159,4 +159,19 @@ section .card .card-container .data-list .data span {
   font-weight: 400;
   color: #6a6f81;
 }
+
+@media screen and (max-width: 567px) {
+  section img[class="top"] {
+    position: absolute;
+    height: 400px;
+    left: -50%;
+    top: -30%;
+  }
+  section img[class="bottom"] {
+    position: absolute;
+    height: 400px;
+    right: -50%;
+    bottom: -30%;
+  }
+}
 /*# sourceMappingURL=style.css.map */

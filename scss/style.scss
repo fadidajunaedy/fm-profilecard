@@ -122,3 +122,21 @@ section {
 
     }
 }
+
+@media screen and (max-width: 567px) {
+    section {
+        img[class="top"]{
+            position: absolute;
+            height: 400px;
+            left: -50%;
+            top: -30%;
+        }
+    
+        img[class="bottom"]{
+            position: absolute;
+            height: 400px;
+            right: -50%;
+            bottom: -30%;
+        }
+    }
+}
